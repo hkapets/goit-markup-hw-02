@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 166.7%;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration-line: none;
 }
@@ -61,11 +61,11 @@ body {
   color: #404bbf;
   text-decoration-line: none;
 }
-.header-adress {
+.header-address {
 }
-.header-adress-list {
+.header-address-list {
 }
-.header-adress-item {
+.header-address-item {
   color: #434455;
   font-weight: 500;
   line-height: 150%;
@@ -79,7 +79,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.mail-link:hover {
+.mail-link:hover,
+.mail-link:focus {
   color: #404bbf;
   text-decoration-line: underline;
 }
@@ -91,7 +92,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.tel-link:hover {
+.tel-link:hover,
+.tel-link:focus {
   color: #404bbf;
   text-decoration-line: underline;
 }
@@ -106,7 +108,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 107.1%;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .order-button {
@@ -122,6 +124,7 @@ body {
   background-color: #404bbf;
 }
 .benefits-section {
+  background-color: #fff;
 }
 .benefits-title {
   font-size: 36px;
@@ -202,7 +205,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 116.7%;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration-line: none;
 }
