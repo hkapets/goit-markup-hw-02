@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -12,19 +13,20 @@ body {
 }
 
 .header-nav {
-  color: #2e2f42;
+  color: #434455;
 }
 .header-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 166.7%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration-line: none;
 }
 .header-logo-part {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .header-nav-list {
   color: #2e2f42;
@@ -33,19 +35,19 @@ body {
   font-weight: 500;
   line-height: 150%;
 }
-.header-nav-link-studio {
-  color: #2e2f42;
+.header-nav-link {
+  color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.header-nav-link-studio:hover {
+.header-nav-link:hover {
   color: #404bbf;
   text-decoration-line: none;
 }
-.header-nav-link-studio:active {
+.header-nav-link:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -62,41 +64,30 @@ body {
   text-decoration-line: none;
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
 .header-address-item {
   color: #434455;
+  font-size: 16px;
   font-weight: 500;
   line-height: 150%;
 }
 
-.mail-link {
-  color: #434455;
-  font-size: 12px;
+.address-link {
+  font-size: 16px;
   font-weight: 400;
-  line-height: 133.3%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-.mail-link:hover,
-.mail-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
   text-decoration-line: underline;
 }
-.tel-link {
-  color: #434455;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 133.3%;
-  letter-spacing: 0.02em;
-  text-decoration-line: none;
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: #404bbf;
-  text-decoration-line: underline;
-}
+
 .main {
   background-color: #fff;
 }
@@ -109,6 +100,7 @@ body {
   font-weight: 700;
   line-height: 107.1%;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .order-button {
@@ -120,7 +112,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
 }
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 .benefits-section {
@@ -146,6 +139,7 @@ body {
   letter-spacing: 0.02em;
 }
 .benefits-item-text {
+  color: #434455;
   font-weight: 500;
   line-height: 150%;
 }
@@ -158,10 +152,12 @@ body {
   line-height: 111.1%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
 .team-member {
+  background-color: #ffffff;
 }
 .team-name {
   font-size: 20px;
@@ -170,6 +166,7 @@ body {
   letter-spacing: 0.02em;
 }
 .team-post {
+  color: #434455;
   font-weight: 500;
   line-height: 150%;
 }
@@ -181,6 +178,7 @@ body {
   line-height: 111.1%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-list {
 }
@@ -193,6 +191,7 @@ body {
   letter-spacing: 0.02em;
 }
 .product-review {
+  color: #434455;
   font-weight: 500;
   line-height: 150%;
 }
@@ -200,17 +199,17 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 116.7%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration-line: none;
 }
 .footer-logo-part {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
