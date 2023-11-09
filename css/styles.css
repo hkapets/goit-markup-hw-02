@@ -8,6 +8,7 @@ body {
   letter-spacing: 0.02em;
 }
 .page-header {
+  background-color: #fff;
 }
 
 .header-nav {
@@ -19,6 +20,7 @@ body {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration-line: none;
 }
 .header-logo-part {
   color: #4d5ae5;
@@ -62,6 +64,7 @@ body {
   text-decoration-line: underline;
 }
 .main {
+  background-color: #fff;
 }
 .hero-section {
   background-color: #2e2f42;
@@ -109,6 +112,7 @@ body {
   line-height: 24px; /* 150% */
 }
 .team-section {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -158,8 +162,17 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration-line: none;
 }
 .footer-logo-part {
+  color: #4d5ae5;
 }
 .footer-text {
   color: #f4f4fd;
