@@ -1,8 +1,168 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+}
+.page-header {
+}
+
+.header-nav {
+}
+.header-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-logo-part {
+  color: #4d5ae5;
+}
+.header-nav-list {
+}
+.header-nav-item {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.header-nav-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+}
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-item {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.mail-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+}
+.tel-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+}
+.main {
+}
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04em;
+}
+.benefits-section {
+}
+.benefits-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.benefits-list {
+}
+.benefits-item {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.benefits-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.02em;
+}
+.benefits-item-text {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.team-section {
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-member {
+}
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.02em;
+}
+.team-post {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.portfolio-section {
+}
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.product-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.02em;
+}
+.product-review {
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+}
+.footer-logo-part {
+}
+.footer-text {
+  color: #f4f4fd;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
 }
