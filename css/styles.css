@@ -123,6 +123,7 @@ body {
   background-color: #fff;
 }
 .benefits-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 111.1%;
@@ -136,6 +137,7 @@ body {
   line-height: 150%;
 }
 .benefits-item-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
@@ -150,6 +152,7 @@ body {
   background-color: #f4f4fd;
 }
 .team-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 111.1%;
@@ -163,6 +166,7 @@ body {
   background-color: #ffffff;
 }
 .team-name {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
@@ -176,6 +180,7 @@ body {
 .portfolio-section {
 }
 .portfolio-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 111.1%;
@@ -188,6 +193,7 @@ body {
 .portfolio-item {
 }
 .product-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
