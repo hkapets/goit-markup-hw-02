@@ -47,22 +47,11 @@ body {
   color: #404bbf;
   text-decoration-line: none;
 }
-.header-nav-link:active {
+.header-nav-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
-.header-nav-link {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-decoration-line: none;
-}
-.header-nav-link:hover {
-  color: #404bbf;
-  text-decoration-line: none;
-}
+
 .header-address {
   font-style: normal;
 }
@@ -78,6 +67,7 @@ body {
 }
 
 .address-link {
+  color: #434455;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
