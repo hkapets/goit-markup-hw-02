@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 140%;
   letter-spacing: 0.02em;
 }
 .page-header {
@@ -12,12 +12,13 @@ body {
 }
 
 .header-nav {
+  color: #2e2f42;
 }
 .header-logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 166.7%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration-line: none;
@@ -26,41 +27,72 @@ body {
   color: #4d5ae5;
 }
 .header-nav-list {
+  color: #2e2f42;
 }
 .header-nav-item {
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
+}
+.header-nav-link-studio {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+.header-nav-link-studio:hover {
+  color: #404bbf;
+  text-decoration-line: none;
+}
+.header-nav-link-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
 .header-nav-link {
-  color: #4d5ae5;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  text-decoration-line: underline;
+  text-decoration-line: none;
+}
+.header-nav-link:hover {
+  color: #404bbf;
+  text-decoration-line: none;
 }
 .header-adress {
 }
 .header-adress-list {
 }
 .header-adress-item {
+  color: #434455;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
+
 .mail-link {
-  color: #4d5ae5;
+  color: #434455;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 133.3%;
   letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+.mail-link:hover {
+  color: #404bbf;
   text-decoration-line: underline;
 }
 .tel-link {
-  color: #4d5ae5;
+  color: #434455;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 133.3%;
   letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+.tel-link:hover {
+  color: #404bbf;
   text-decoration-line: underline;
 }
 .main {
@@ -73,7 +105,7 @@ body {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 107.1%;
   letter-spacing: 1.12px;
 }
 
@@ -83,7 +115,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
   letter-spacing: 0.04em;
 }
 .benefits-section {
@@ -91,7 +123,7 @@ body {
 .benefits-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 111.1%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -99,17 +131,17 @@ body {
 }
 .benefits-item {
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
 .benefits-item-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 120%;
   letter-spacing: 0.02em;
 }
 .benefits-item-text {
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
 .team-section {
   background-color: #f4f4fd;
@@ -117,7 +149,7 @@ body {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 111.1%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -128,19 +160,19 @@ body {
 .team-name {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 120%;
   letter-spacing: 0.02em;
 }
 .team-post {
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
 .portfolio-section {
 }
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 111.1%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -151,12 +183,12 @@ body {
 .product-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 120%;
   letter-spacing: 0.02em;
 }
 .product-review {
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
 .page-footer {
   background-color: #2e2f42;
@@ -166,7 +198,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 116.7%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration-line: none;
@@ -177,5 +209,5 @@ body {
 .footer-text {
   color: #f4f4fd;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 150%;
 }
