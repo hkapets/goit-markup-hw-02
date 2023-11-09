@@ -67,15 +67,18 @@ body {
   font-style: normal;
 }
 .header-address-list {
+  font-style: normal;
 }
 .header-address-item {
   color: #434455;
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
 }
 
 .address-link {
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
