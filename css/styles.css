@@ -118,6 +118,9 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
 }
+.order-button:hover {
+  background-color: #404bbf;
+}
 .benefits-section {
 }
 .benefits-title {
