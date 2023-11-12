@@ -3,10 +3,12 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.02em;
+}
+ul,
+ol {
+  list-style-type: none;
 }
 .page-header {
   background-color: #fff;
@@ -33,13 +35,13 @@ body {
 }
 .header-nav-item {
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .header-nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
@@ -62,8 +64,7 @@ body {
   color: #434455;
   font-style: normal;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .address-link {
@@ -90,8 +91,7 @@ body {
 .hero-title {
   color: #fff;
   font-size: 56px;
-  font-weight: 700;
-  line-height: 107.1%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -102,7 +102,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .order-button:hover,
@@ -115,28 +115,24 @@ body {
 .benefits-title {
   color: #2e2f42;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 111.1%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .benefits-list {
 }
 .benefits-item {
-  font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .benefits-item-title {
   color: #2e2f42;
   font-size: 20px;
-  font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .benefits-item-text {
   color: #434455;
-  font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .team-section {
   background-color: #f4f4fd;
@@ -144,8 +140,7 @@ body {
 .team-title {
   color: #2e2f42;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 111.1%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -159,21 +154,19 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-post {
   color: #434455;
-  font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .portfolio-section {
 }
 .portfolio-title {
   color: #2e2f42;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 111.1%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -185,14 +178,12 @@ body {
 .product-title {
   color: #2e2f42;
   font-size: 20px;
-  font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .product-review {
   color: #434455;
-  font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
 .page-footer {
   background-color: #2e2f42;
@@ -213,5 +204,5 @@ body {
 .footer-text {
   color: #f4f4fd;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
 }
